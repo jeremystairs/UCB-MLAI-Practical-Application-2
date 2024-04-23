@@ -75,9 +75,10 @@ The data was modeled in three ways:
 
 Mean Squared Error (MSE) was used as the evaluation metric. The dataset was large and most outliers were removed. Considering this, MSE was an appropriate evaluation metric. R-squared was used to describe the proportion of the variance explained by the the model.
 
-<img src="images/pred_error_linreg.png" alt="drawing" style="width:250px;"/><img src="images/pred_error_lasso.png" alt="drawing" style="width:250px;"/><img src="images/pred_error_ridge.png" alt="drawing" style="width:250px;"/>
+<img src="images/pred_error_linreg.png" alt="drawing" style="width:350px;"/><img src="images/pred_error_lasso.png" alt="drawing" style="width:350px;"/>
 
-<img src="images/t10_ridge_coef.png" alt="drawing" style="width:250px;"/>
+<img src="images/pred_error_ridge.png" alt="drawing" style="width:350px;vertical-align: top;"/>
+<img src="images/t10_ridge_coef.png" alt="drawing" style="width:350px;"/>
 
 ## Evaluation
 
