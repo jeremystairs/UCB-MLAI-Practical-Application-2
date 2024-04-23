@@ -29,11 +29,11 @@ The provided dataset contains 426,880 records with 18 features:
 - state    
 
 ## Deliverables:
-Detailed finding can be found in this Jupyter Notebook: [prompt.ipynb](https://github.com/jeremystairs/UCB-MLAI-Practical-Application-1/blob/main/prompt.ipynb)
+Detailed finding can be found in this Jupyter Notebook: [prompt.ipynb](https://github.com/jeremystairs/UCB-MLAI-Practical-Application-2/blob/main/prompt.ipynb)
 
-Initial data: [data](https://github.com/jeremystairs/UCB-MLAI-Practical-Application-1/blob/main/data)
+Initial data: [data](https://github.com/jeremystairs/UCB-MLAI-Practical-Application-2/tree/main/data)
 
-Images generated during analysis: [images](https://github.com/jeremystairs/UCB-MLAI-Practical-Application-1/blob/main/images)
+Images generated during analysis: [images](https://github.com/jeremystairs/UCB-MLAI-Practical-Application-2/tree/main/images)
 
 
 ## Data Understanding
@@ -75,9 +75,7 @@ The data was modeled in three ways:
 
 Mean Squared Error (MSE) was used as the evaluation metric. The dataset was large and most outliers were removed. Considering this, MSE was an appropriate evaluation metric. R-squared was used to describe the proportion of the variance explained by the the model.
 
-<img src="images/pred_error_linreg.png" alt="drawing" style="width:250px;"/>
-<img src="images/pred_error_lasso.png" alt="drawing" style="width:250px;"/>
-<img src="images/pred_error_ridge.png" alt="drawing" style="width:250px;"/>
+<img src="images/pred_error_linreg.png" alt="drawing" style="width:250px;"/><img src="images/pred_error_lasso.png" alt="drawing" style="width:250px;"/><img src="images/pred_error_ridge.png" alt="drawing" style="width:250px;"/>
 
 <img src="images/t10_ridge_coef.png" alt="drawing" style="width:250px;"/>
 
